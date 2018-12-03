@@ -1,0 +1,10 @@
+application:
+  dataGeneratorCronConfig: 0/3 * * * * *
+
+server.port: 8081
+
+spring:
+  cloud:
+    gcp:
+      project-id: kubertest-224111
+      credentials.location: classpath:google.creds2.json
